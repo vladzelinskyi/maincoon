@@ -1,0 +1,182 @@
+h1 {
+    font-size: 52px;
+}
+.subtitle {
+    max-width: 700px;
+}
+
+/* =====================================================
+Header
+===================================================== */
+
+.main-header {
+    height: 684px;
+}
+.overlay {
+    background-size: contain;
+    background-position: bottom right;
+}
+.header-container {
+    margin-left: 200px;
+}
+.social {
+    margin-left: 80px;
+}
+.social-list {
+    flex-direction: column;
+    position: relative;
+}
+.social-list:before {
+    position: absolute;
+    display: block;
+    content: '';
+    top: -100px;
+    left: 13px;
+    height: 77px;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.6);
+}
+.social.horizontal .social-list {
+    flex-direction: row;
+}
+.social.horizontal .social-list:before {
+    display: none;
+}
+
+/* =====================================================
+Benefits
+===================================================== */
+
+.benefits-list {
+    flex-direction: row;
+}
+.circle {
+    background-size: 613px;
+    height: 700px;
+}
+.circle-dot {
+    background-position: calc(50% + 6px) calc(50% - 7px);
+    background-size: 593px;
+}
+.cat-img img {
+    width: 570px;
+}
+#features-ul-li_1 {
+    transform: translate(-430px, 165px);
+}
+#features-ul-li_2 {
+    transform: translate(315px, 270px);
+}
+#features-ul-li_3 {
+    transform: translate(285px, 490px);
+}
+#features-ul-li_4 {
+    transform: translate(-460px, 445px);
+}
+
+/* =====================================================
+Articles
+===================================================== */
+
+.articles {
+    padding: 60px 0 100px 0;
+}
+.articles-grid {
+    grid-template-columns: 1fr 1fr;
+    max-width: calc(558px + 558px + 25px);
+}
+
+/* =====================================================
+Team
+===================================================== */
+.team__slider .slider-box {
+    width: 600px;
+    box-sizing: unset;
+    margin-left: 137px;
+}
+.team__slider .slider__content-item {
+    width: 600px;
+}
+.team__slider .slider__img-item {
+    width: 360px;
+    height: 360px;
+    left: 0%;
+    top: -26px;
+    transform: translate(-90%, 0%);
+}
+.team__slider .next {
+    right: -45%;
+    top: 50%;
+}
+.team__slider .prev {
+    left: -40%;
+    top: 50%;
+}
+
+/* =====================================================
+FAQ
+===================================================== */
+
+.icon-plus {
+    width: 100px;
+}
+.accordion-item_title h3 {
+    padding: 40px;
+}
+.accordion-item_content-inner {
+    padding: 40px;
+}
+.accordion-list {
+    max-width: 900px;
+}
+
+/* =====================================================
+Responses
+===================================================== */
+
+.responses__slider {
+    max-width: 640px;
+}
+.slider-box {
+    margin-left: 192px;
+    margin-top: 58px;
+}
+.slider__content-item {
+    width: 640px;
+    height: 408px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.slider__content-item > div {
+    max-width: 408px;
+    padding-left: 40px;
+}
+.item__autor,
+.item__response {
+    text-align: left;
+}
+.item__info {
+    margin: 35px 0 0 0;
+}
+.slider__img-item {
+    width: 480px;
+    height: 331px;
+    left: 0%;
+    top: 50%;
+    transform: translate(-80%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow-btn {
+    top: 50%;
+}
+.next {
+    right: -250px;
+    transform: translateY(-50%);
+}
+.prev {
+    left: -250px;
+}
